@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skills Page</title>
+    <title>Skills</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,7 +12,7 @@
             background-color: #f4f4f4;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #1e62c7;
             color: white;
             padding: 10px 0;
             text-align: center;
@@ -31,7 +31,7 @@
         }
         .skills-section h2 {
             color: #333;
-            border-bottom: 2px solid #4CAF50;
+            border-bottom: 2px solid #1e62c7;
             padding-bottom: 10px;
         }
         .skills-section ul {
@@ -51,6 +51,30 @@
             background-color: #333;
             color: white;
         }
+
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .navbar a.active {
+            background-color: #1e62c7;
+            color: white;
+        }
+        .container {
+            padding: 20px;
+        }
     </style>
 </head>
 <body>
@@ -59,15 +83,27 @@
             <h1>My Skills</h1>
         </div>
     </header>
+
+    <div class="navbar">
+        <a href="https://fonteinman.github.io/VirtualCV/index" class="active">Home</a>
+        <a href="https://fonteinman.github.io/VirtualCV/AboutMe">About Me</a>
+        <a href="https://fonteinman.github.io/VirtualCV/resume">Resume</a>
+        <a href="https://fonteinman.github.io/VirtualCV/projects">Projects</a>
+        <a href="https://fonteinman.github.io/VirtualCV/skills">My Skills</a>
+        <a href="https://fonteinman.github.io/VirtualCV/contactinfo">Contact Information</a>
+    </div>
     
     <div class="container">
         <div class="skills-section">
             <h2>Technical Skills</h2>
             <ul>
-                <li>Programming Languages: JavaScript, Python, Java</li>
-                <li>Web Development: HTML, CSS, React, Node.js</li>
-                <li>Databases: MySQL, MongoDB</li>
+                <li>Programming Languages: JavaScript, Python, Java, C#</li>
+                <li>Web Development: HTML, CSS, Node.js</li>
+                <li>Databases: MySQL, SQLite</li>
                 <li>Version Control: Git, GitHub</li>
+                <li>Accounting Standards: IFRS, GRAP</li>
+                <li>Assurance: Review and Auditing of Financial Statements</li>
+                <li>Reporting: Compiling of Annual Financial Statements, MFMA Section 71 Reporting</li>
             </ul>
         </div>
 
@@ -78,21 +114,43 @@
                 <li>Teamwork</li>
                 <li>Problem Solving</li>
                 <li>Time Management</li>
+                <li>Ability to work under pressure</li>
+                <li>Deadline driven</li>
+                <li>Independent decision maker</li>
             </ul>
         </div>
 
         <div class="skills-section">
             <h2>Languages</h2>
             <ul>
-                <li>English (Fluent)</li>
-                <li>Spanish (Intermediate)</li>
-                <li>French (Basic)</li>
+                <li>Afrikaans (Fluent)</li>
+                <li>English (Fluent)</li>                
             </ul>
         </div>
+
+        <div class="skills-section">
+            <h2>Computer Literacy</h2>
+            <ul>
+                <li>Ms Word</li>
+                <li>Ms Excel</li>
+                <li>Ms Outlook</li>
+                <li>Ms Powerpoint</li>
+                <li>Caseware Working Papers</li>
+                <li>Team Mate</li>
+                <li>SARS E-Filing (basic)</li>
+                <li>Munsoft (basic) (including link to Caseware Working Papers and National Treasury Reports)</li>
+                <li>AMS360</li>
+                <li>Pastel Partner</li>
+                <li>Sage Evolution (Accredited Consultant)</li>
+                <li>Sage Intelligence Reporting (Accredited Consultant)</li>
+                <li>Munsoft Reporting</li>               
+            </ul>
+        </div>
+
     </div>
     
     <footer>
-        <p>&copy; 2024 My Skills Page. All rights reserved.</p>
+        <p>&copy; 2024 Andre Croukamp. The information is correct as at time of publishing.</p>
     </footer>
 </body>
 </html>
